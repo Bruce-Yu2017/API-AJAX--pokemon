@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pokemon</title>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            for(var i = 1; i < 152; i++) {
+                var body = $("body");
+                var url = "http://pokeapi.co/media/img/" + i + ".png"
+                body.append("<img src=" + url + ">")
+            }
+        })
+    </script>
+    
+</head>
+<body>
+    <img src="" alt="">
+</body>
+</html>
